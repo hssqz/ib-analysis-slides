@@ -1,6 +1,6 @@
 {
   "name": "ib-analysis-slides",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "private": true,
   "description": "Optional rendering tools for the IB Analysis Slides skill",
   "license": "MIT",
@@ -9,7 +9,8 @@
   },
   "scripts": {
     "test": "python3 skills/ib-analysis-slides/scripts/check_package.py",
-    "test:capture": "node skills/ib-analysis-slides/scripts/capture_pages.cjs --self-test"
+    "test:capture": "node skills/ib-analysis-slides/scripts/capture_pages.cjs --self-test",
+    "test:pptx": "npm --prefix skills/ppt-maker test"
   },
   "engines": {
     "node": ">=20"

@@ -4,7 +4,7 @@ English | [简体中文](docs/README.zh-CN.md)
 
 **Turn research into investment-bank-style slides—with editable charts, dense analysis and traceable evidence.**
 
-One agent skill for investment-bank-style presentations. Goldman Sachs style is available now, with more global and Chinese institutions to follow.
+Two complementary agent skills: `ib-analysis-slides` designs research-backed HTML; `ppt-maker` delivers editable PowerPoint and rebuildable source. Goldman Sachs style is available now, with more global and Chinese institutions to follow.
 
 ![Text roles: scope headings, object colors, italic evidence and financial hierarchy](skills/ib-analysis-slides/banks/goldman/examples/typography/preview.png)
 ![Financial example: native tables and profit drivers](skills/ib-analysis-slides/banks/goldman/examples/financial/preview.png)
@@ -28,7 +28,12 @@ Checked styles are available. Unchecked styles are planned, with no release date
 
 ## Install
 
-Download the [latest release](https://github.com/hssqz/ib-analysis-slides/releases/latest) and copy the entire `ib-analysis-slides` folder into your agent's skills directory.
+Download the [latest release](https://github.com/hssqz/ib-analysis-slides/releases/latest):
+
+- **HTML:** install the complete `ib-analysis-slides` folder.
+- **HTML + PPTX:** also install the complete `ppt-maker` folder, then run `npm ci --ignore-scripts` inside it (Node20+, Python3.10+).
+
+The skills install independently. [PowerPoint setup and handoff](docs/pptx/workflow.md) covers source delivery, rendering and the legacy-version boundary.
 
 For optional screenshot tooling, see the [setup guide](skills/ib-analysis-slides/references/execution.md).
 
@@ -41,7 +46,18 @@ Use $ib-analysis-slides to turn this report into 5 English slides
 in Goldman Sachs style. Deliver editable HTML.
 ```
 
-PPTX export requires a separate exporter.
+After approving the HTML, ask:
+
+```text
+Use $ppt-maker to reproduce these approved HTML pages as editable PPTX.
+Preserve the content, layout and Goldman typography; include rebuildable source.
+```
+
+The companion uses PptxGenJS and exports native text, tables, shapes and charts where appropriate. Images remain images; chart editability is recorded per output. It does not promise automatic lossless HTML conversion.
+
+![Actual PPTX rendering: analytical, financial and native-chart examples](skills/ppt-maker/examples/preview.png)
+
+[Download the editable PPTX example](https://github.com/hssqz/ib-analysis-slides/releases/download/v0.8.0/ppt-maker-example.pptx).
 
 ## Scope and contributing
 
@@ -51,4 +67,4 @@ Current support covers Goldman Sachs-style investor presentations. Detailed capa
 
 ## License
 
-[MIT](LICENSE) for the repository's original code, instructions and fictional examples. Institutional names identify the style being studied; no trademark rights are granted. Original institutional reports, report screenshots, logos and commercial fonts are not included. Supply your own permitted research inputs.
+[MIT](LICENSE) for the repository's original code, instructions and fictional examples. Institutional names identify the style being studied; no trademark rights are granted. Original institutional reports, report screenshots, logos, commercial fonts and the legacy mirrored editor/WASM are not included. PptxGenJS and its dependencies retain their upstream licenses; see [backend provenance](skills/ppt-maker/references/provenance.md). Supply your own permitted research inputs.

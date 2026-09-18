@@ -8,3 +8,5 @@
 - scripts/: Scoped resources; see its CLAUDE.md.
 
 [PROTOCOL]: 变更时更新此头部，然后检查 CLAUDE.md
+
+2026-09-18: Optional approved-HTML handoff to standalone ppt-maker; HTML default unchanged.

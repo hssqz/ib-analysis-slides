@@ -1,3 +1,15 @@
+## v0.8.0 — standalone editable PowerPoint companion
+
+Released 2026-09-18. The repository now ships two independently installable skills: ib-analysis-slides for institution-style HTML and ppt-maker for rebuildable JavaScript projects plus editable PPTX. Approved HTML hands off without restarting confirmed design decisions. Install the second skill only when PowerPoint output is needed.
+
+The new backend is PptxGenJS4.0.1 with a pinned dependency lock and image-size2.0.4 override. It includes original native-object examples, package/relationship/bounds checks, valid root-level fade transitions and optional actual LibreOffice/Poppler rendering. No legacy mirrored editor, WASM, upstream runtime scripts, fonts or private brand assets are distributed. Public0.8 does not import/export PPTD, reproduce the old editor, or provide lossless arbitrary HTML/PPTX conversion. Existing local versions are untouched.
+
+Validation: a new directory installed the complete skill and exported three pages. Two manually reconstruct the published fictional Goldman-style HTML; the third tests native chart data, negative values, tracking, shapes and local media. A separate delivered source project installed and rebuilt without the installed skill. Changing third-page text and chart data updated the native chart cache and embedded XLSX; the first two slides' XML and rendered PNG were byte-identical. Actual final PPTX pages were rendered and viewed with LibreOfficeDev26.8, and the finance-page spacing was adjusted against HTML. Existing fourteen HTML examples passed regression. [Checks, hashes and limits](pptx/validation.json).
+
+The native object representation was inspected; this is not a PowerPoint/WPS/Keynote interactive editing or playback certification. Page1's chart is editable shapes/text, page2 has native table cells, and page3 has a native chart with data workbook. No automatic font embedding, element animations or all-twelve-component migration is claimed. First installation needs npm access; local exports of local assets do not. [Setup and handoff](pptx/workflow.md).
+
+---
+
 ## v0.7.0 — text roles and grouping geometry
 
 Released 2026-09-18. Analytical pages now preserve regular tracked scope labels, folded grouping lines, object-owned text colors, neutral shared concepts and readable italic evidence. Financial pages keep their own title, section, unit and accounting-weight grammar. Selection follows the evidence relationship; these treatments are not mandatory ornaments.

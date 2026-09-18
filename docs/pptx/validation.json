@@ -1,0 +1,62 @@
+{
+  "version": "0.8.0",
+  "date": "2026-09-18",
+  "backend": {
+    "pptxgenjs": "4.0.1",
+    "image_size_override": "2.0.4",
+    "dependency_audit": "npm registry audit reported 0 vulnerabilities after override; checked on release date"
+  },
+  "checks": {
+    "isolated_skill_install": "PASS npm ci and npm test in new directory without node_modules",
+    "independent_project": "PASS separate source project with its own lockfile and finalizer; no installed-skill runtime imports",
+    "export_regression": "PASS native table/chart/workbook/media, source values, fade/none ordering, nested fade failure, missing relationship failure, destination overwrite rejection",
+    "html_regression": "PASS existing 5 HTML documents / 14 slides; bank rules unchanged apart from version and optional handoff",
+    "actual_rendering": "LibreOfficeDev26.8.0.0.alpha0 + Poppler at96dpi; final3 pages viewed",
+    "revision": "Third-page text and chart value7→8 changed in native chart cache and XLSX; slide1/2 XML and PNG bytes unchanged"
+  },
+  "example": {
+    "pptx_sha256": "0c46272e172a8032dd2bedf1199a3c7e6d3e85fe5fa00d10027265f5c1e56e50",
+    "pages": {
+      "page-1.png": "4f32b2442774a6986e218a3f5ea61cb6a81e63b50f5ce55d636c3ea69f390184",
+      "page-2.png": "de7243c29bcd5bf4c76fefb18ad208c58b54d63cbf23c36beb6e10c8a7aacab1",
+      "page-3.png": "3e08d6472ed77e873b6523376ecd89ed88455030ff1a6fa264bf881caf4e13e5"
+    },
+    "native_counts": {
+      "tables": 1,
+      "charts": 1,
+      "embedded_workbooks": 1,
+      "pictures": 1
+    },
+    "review": "Analytical title/claim/evidence roles retained. Financial native table and text reflow checked against original HTML T4; tightened draft spacing. No observed clipping. Slide3 synthetic capability test viewed before/after edit.",
+    "shape_chart": "Slide1 uses editable shapes/text rather than a chart-data workbook."
+  },
+  "revision_pptx_sha256": "01da767058d4f48b03ad407a148ef2165693a09499758d2b4f46d7e9012372b3",
+  "package_files": {
+    "CLAUDE.md": "7d53687d9fa48ac2e9a6290f9380a1f225217d182cea44fab5ae1060dbf7a6a8",
+    "LICENSE": "70d466cfbdedac90d5a344587e6b540f5ddf62cd3cafe2e6d1a34532c7608460",
+    "SKILL.md": "e07044390822452894edd0e521378bb704cbc1ddf9bcafc87a8edc512b9d2f1c",
+    "examples/CLAUDE.md": "a9921f457042958ebc43292949df814cead7b1e9da7fb98dcbcacc3f09a33bfe",
+    "examples/build.cjs": "ef20410451f6e9321d5d3461010601e7f766fe633141f5f220f18f7ceb8a97f3",
+    "examples/example.png": "6126d69ee584e6138b07d58dc8a5b6734469056e6915499b1688cf73a169c68b",
+    "examples/preview.png": "ec6146d4baf2eabc4c1f78ef7fbdaf9efbe3e53d0c4af6ea9f0403d94cf5a647",
+    "examples/sources.md": "aaa68793b4a1bccd1b39658b169f25fb2c84b86b992d551194c2da0d3433c08c",
+    "package-lock.json": "de059b3f409082671134a4378ebee9cbedef6a32e19fa014457e2224e336d26e",
+    "package.json": "ff3eb4b9913bf7cd45ca8ac6da0e7241346343584e0f2df9a7ace939db46ef73",
+    "references/CLAUDE.md": "a4b411c34c102c466ce6306efcd91640aa24626312ebc6f6bd2f6bfdb839c985",
+    "references/design.md": "07586f95d7f3c35bae9d4dbb15f10e79624fa09f8162b89a72ee10d3afd08a0b",
+    "references/production.md": "3c6f23224494be50c0e76287bfc3dd49a0a2f7f7cb7d2bfec40134fe6818e677",
+    "references/provenance.md": "46bc629ec91fd05abe67d6492dd82875a25d1f920ad5d4b540364d842a7bf6d9",
+    "scripts/CLAUDE.md": "c6feff08092f603c18d57d7737e9a21879a29f774041cbd8b22de2ceb3414874",
+    "scripts/pptx.py": "792dee7f0eb40a5657e97b9feadc0c36e6fdc4291a17a04b68966d76b06fd954",
+    "scripts/render.py": "2473a49a008fcbb3433aa738fd9a2f313388c987ba62d33046ec7f3237675a95",
+    "scripts/test_export.py": "9668394e670600bafa8cea54ae8cc91cb1334abfd2f24ebd282a241ff8692a54"
+  },
+  "limits": [
+    "No clean-OS or PowerPoint/WPS/Keynote parity validation.",
+    "No automatic HTML/CSS import, pixel-identity claim, arbitrary PPTX round-trip, legacy PPTD or browser editor.",
+    "No automatic font embedding or element-animation generator.",
+    "The 12 component relationships are guidance, not 12 migrated tested templates.",
+    "No fresh-agent generation study in this release; independent installation and source-project tests ran on the same host."
+  ],
+  "distribution": "No mirrored editor, WASM, legacy runtime/format manual, commercial fonts, private brand assets or original bank reports."
+}

@@ -12,7 +12,7 @@ description: Turn research and financial evidence into dense, editable investmen
 
 # IB Analysis Slides
 
-Version 0.7.0. Default output is editable offline HTML. Output language belongs to the bank profile: current Goldman profiles require English titles, body, chart labels and source notes, including when input research is Chinese. The shared workflow can handle Chinese and English; future domestic-bank profiles will define their own language and typography rules. No Chinese bank profile is bundled yet. The supplied profiles are unofficial interpretations of investor-presentation styles.
+Version 0.8.0. Default output is editable offline HTML. Output language belongs to the bank profile: current Goldman profiles require English titles, body, chart labels and source notes, including when input research is Chinese. The shared workflow can handle Chinese and English; future domestic-bank profiles will define their own language and typography rules. No Chinese bank profile is bundled yet. The supplied profiles are unofficial interpretations of investor-presentation styles.
 
 ## Route the request
 
@@ -43,3 +43,7 @@ For revisions, preserve the accepted original. Recompute affected totals, ratios
 Provide the offline HTML, evidence/calculation record, brief design and actual rendering/review record. Separate confirmed limitations from hypothetical issues. Examples and profile observations define a supported starting point, not an assurance of arbitrary page types or content lengths.
 
 PPTX is optional and outside this package. If explicitly requested and a compatible exporter such as `ppt-maker` is available, hand off frozen HTML, screenshots, text/data, fonts, dimensions and editability requirements. Validate the exported file independently; HTML review does not prove PowerPoint rendering or native chart editability. Do not require or install an exporter for HTML-only requests.
+
+## Optional PowerPoint handoff
+
+When the user requests PPTX, use the installed `ppt-maker` skill with the approved HTML, evidence and previews. Preserve the selected institution profile and confirmed page scope. The public companion delivers editable JavaScript source plus PPTX; it does not import arbitrary HTML automatically or require legacy PPTD. HTML remains the default when no PowerPoint export is requested.

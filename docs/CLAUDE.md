@@ -11,4 +11,6 @@
 
 - forward-test.md: Independent public trial, corrected quality assessment, language regression and matched rich-input comparison.
 
+- pptx/: Dual-skill installation, backend replacement and actual export validation.
+
 [PROTOCOL]: 变更时更新此头部，然后检查 CLAUDE.md

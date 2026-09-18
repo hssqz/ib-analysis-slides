@@ -1,0 +1,19 @@
+{
+  "name": "ppt-maker-skill",
+  "version": "0.8.0",
+  "private": true,
+  "description": "Independent editable presentation authoring with PptxGenJS",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "pptxgenjs": "4.0.1"
+  },
+  "scripts": {
+    "test": "python3 scripts/test_export.py"
+  },
+  "overrides": {
+    "image-size": "2.0.4"
+  }
+}
