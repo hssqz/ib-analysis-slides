@@ -3,7 +3,7 @@ Markdown skill + editable HTML/SVG examples + Node/Playwright screenshot helper.
 
 ```text
 skills/ib-analysis-slides/  Installable skill, shared workflow and bank profiles
-docs/                      Release scope, validation and contribution notes
+docs/                      Chinese README, release scope, validation and contribution notes
 README.md                  Public introduction, previews and installation
 LICENSE                    MIT license
 package.json               Optional screenshot-tool dependency
