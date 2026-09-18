@@ -1,0 +1,17 @@
+{
+  "name": "ib-analysis-slides",
+  "version": "0.6.1",
+  "private": true,
+  "description": "Optional rendering tools for the IB Analysis Slides skill",
+  "license": "MIT",
+  "devDependencies": {
+    "playwright": "1.62.1"
+  },
+  "scripts": {
+    "test": "python3 skills/ib-analysis-slides/scripts/check_package.py",
+    "test:capture": "node skills/ib-analysis-slides/scripts/capture_pages.cjs --self-test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

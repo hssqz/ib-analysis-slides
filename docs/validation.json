@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-18",
+  "version": "0.6.1",
+  "environment": "macOS; Node26.6.0; Playwright1.62.1; installed Chrome152; system Arial",
+  "checks": {
+    "package": "pass",
+    "freshDirectory": "pass; existing host runtime",
+    "captureSelfTest": "pass",
+    "visualReview": "All 10 pages viewed; two rotated-label bounding-box candidates accepted",
+    "sourceRegression": "All four HTMLs retain the same source apart from comments/inter-tag whitespace",
+    "pixelRegression": "8 identical pages; 2 pages have minor pixel differences recorded below",
+    "scope": "No clean OS or post-packaging fresh-agent generation claim"
+  },
+  "pixelDifferences": [
+    {
+      "page": 1,
+      "changedPixels": 18,
+      "maximumChannelDifference": 7
+    },
+    {
+      "page": 2,
+      "changedPixels": 2,
+      "maximumChannelDifference": 7
+    }
+  ],
+  "examples": {
+    "analysis/index.html": {
+      "sha256": "f579dc4b3322feef04d781cc2db5dd18833f26f4f9bcceae2035162af7d491ed",
+      "pages": 4,
+      "svgTextOutside": 0,
+      "overlapCandidates": 0,
+      "externalRequests": 0
+    },
+    "financial/index.html": {
+      "sha256": "1094b2f410d079013fed51fd030df37b292f80f6c3c4fdf84e57248bb5aed599",
+      "pages": 3,
+      "svgTextOutside": 0,
+      "overlapCandidates": 0,
+      "externalRequests": 0
+    },
+    "relationships/analysis.html": {
+      "sha256": "7d9e89b844c176a52eb6e4c380f1546025f0410134669b492f1a6096cae2f97a",
+      "pages": 2,
+      "svgTextOutside": 0,
+      "overlapCandidates": 2,
+      "externalRequests": 0
+    },
+    "relationships/financial.html": {
+      "sha256": "33636398a2dfa5861ae8ae5de715b3a80d39b0b672a3826daff85b6e9b5cfdb9",
+      "pages": 1,
+      "svgTextOutside": 0,
+      "overlapCandidates": 0,
+      "externalRequests": 0
+    }
+  }
+}
