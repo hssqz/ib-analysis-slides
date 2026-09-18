@@ -7,6 +7,6 @@
 
 - validation.json: Public-example hashes and actual release checks.
 
-- forward-test.md: Independent public clone/install/generation trial and follow-up language regression.
+- forward-test.md: Independent public trial, corrected quality assessment, language regression and matched rich-input comparison.
 
 [PROTOCOL]: 变更时更新此头部，然后检查 CLAUDE.md
