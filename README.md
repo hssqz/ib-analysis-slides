@@ -4,18 +4,21 @@ English | [简体中文](docs/README.zh-CN.md)
 
 **Turn research into investment-bank-style slides—with editable charts, dense analysis and traceable evidence.**
 
-Two complementary agent skills: `ib-analysis-slides` designs research-backed HTML; `ppt-maker` delivers editable PowerPoint and rebuildable source. Goldman Sachs style is available now, with more global and Chinese institutions to follow.
+Two complementary agent skills: `ib-analysis-slides` designs research-backed HTML; `ppt-maker` delivers editable PowerPoint and rebuildable source. Goldman Sachs and five Blackstone-inspired themes are available, with more global and Chinese institutions to follow.
 
 ![Text roles: scope headings, object colors, italic evidence and financial hierarchy](skills/ib-analysis-slides/banks/goldman/examples/typography/preview.png)
 ![Financial example: native tables and profit drivers](skills/ib-analysis-slides/banks/goldman/examples/financial/preview.png)
 
-All preview data is fictional. Independent project; not affiliated with or endorsed by Goldman Sachs.
+All preview data is fictional. Independent project; not affiliated with or endorsed by Goldman Sachs or Blackstone.
+
+![Blackstone-inspired investor, earnings, credit and strategy examples](skills/ib-analysis-slides/banks/blackstone/examples/preview.png)
 
 ## Bank styles
 
 Checked styles are available. Unchecked styles are planned, with no release dates yet.
 
 - [x] Goldman Sachs · 高盛
+- [x] Blackstone · 黑石 (five historical themes; selected analytical capabilities)
 - [ ] J.P. Morgan · 摩根大通
 - [ ] Morgan Stanley · 摩根士丹利
 - [ ] Bank of America · 美国银行
@@ -46,6 +49,13 @@ Use $ib-analysis-slides to turn this report into 5 English slides
 in Goldman Sachs style. Deliver editable HTML.
 ```
 
+For Blackstone, specify the analytical purpose; the skill routes to the corresponding historical theme:
+
+```text
+Use $ib-analysis-slides to make an English Blackstone-style company overview
+and earnings analysis from these reports. Deliver offline HTML with sources.
+```
+
 After approving the HTML, ask:
 
 ```text
@@ -61,7 +71,7 @@ The companion uses PptxGenJS and exports native text, tables, shapes and charts 
 
 ## Scope and contributing
 
-Current support covers Goldman Sachs-style investor presentations. Detailed capabilities and limits are documented in the release notes.
+Current support covers Goldman Sachs-style investor presentations and five Blackstone-inspired historical themes: investor, earnings, credit-market, Investor Day and investment strategy. Blackstone has seven original examples; the full observed source-page catalog is not a blanket implementation promise. Detailed capabilities and limits are documented in the release notes.
 
 [Release and validation](docs/release.md) distinguishes tested behavior from remaining limits. An [independent public-package trial](docs/forward-test.md) completed installation and four new English pages using only the public skill. [Contributing](docs/contributing.md) explains how to add a bank profile without duplicating the main skill. If the results help, a star makes the project easier to discover.
 

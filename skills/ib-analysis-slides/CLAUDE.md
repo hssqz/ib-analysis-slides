@@ -3,7 +3,7 @@
 
 - LICENSE: MIT grant retained when installing only this directory.
 - SKILL.md: Single entrypoint and routing.
-- banks/: Scoped resources; see its CLAUDE.md.
+- banks/: Goldman profiles and Blackstone five-theme profiles; see its CLAUDE.md.
 - references/: Scoped resources; see its CLAUDE.md.
 - scripts/: Scoped resources; see its CLAUDE.md.
 

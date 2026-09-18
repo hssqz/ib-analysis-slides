@@ -1,3 +1,17 @@
+## v0.9.0 — five Blackstone-inspired themes
+
+Adds selected Blackstone-inspired investor, earnings, credit-market, Investor Day and macro-strategy profiles alongside the existing Goldman profiles. Seven original fictional HTML examples include reproducible Python builders, an overview with content-aware spacing, financial tables, mechanism panels, grouping labels, portfolio classifications and strategy charts. User feedback on the overview was traced back to text-role measurements and whole-page spacing, then corrected in the shared builder.
+
+Validation: nine pages from three fresh tasks used full ASML, Microsoft, IEA and JPM materials. Review checked original facts and actual renders against source-style references. A subsequent long-label revision and two synthetic boundary pages exercised six periods, negative/zero/missing values and five categories over three dates; six unrelated pages retained byte-identical HTML and PNG. Microsoft corrected one overly strong phrase during its own first-pass review; initial and final evidence were preserved. The independent tasks shared a host, not an OS security boundary.
+
+The complete skill passed a clean Node24/Debian ARM64 container installation with no host home, personal skills, node_modules or browser cache mounted. Declared dependencies were installed, seven examples rebuilt deterministically, and actual Linux Chromium pages rendered and reviewed. The final ZIP receives the same install/rebuild/render check. All 21 bundled HTML pages pass static checks. [Validation details and file hashes](https://github.com/hssqz/ib-analysis-slides/blob/v0.9.0/docs/validation.json).
+
+Scope: selected capabilities across five historical themes, not all 66 observed variants. System-font substitutions remain; exact brand-font or cross-platform pixel identity is not claimed. Missing original bubble-size data and the source sensitivity model remain unresolved. No new Blackstone PowerPoint export or Office editing certification. The ppt-maker companion is unchanged from v0.8.0 and is included under the repository release version for convenience.
+
+Only original rules, helpers and fictional examples are distributed. Original PDFs/PPTX, report screenshots, research inputs, logos, proprietary fonts and private session records remain outside the public package. User approval covers the local six-page migration, not automatic aesthetic approval of independent outputs.
+
+---
+
 ## v0.8.0 — standalone editable PowerPoint companion
 
 Released 2026-09-18. The repository now ships two independently installable skills: ib-analysis-slides for institution-style HTML and ppt-maker for rebuildable JavaScript projects plus editable PPTX. Approved HTML hands off without restarting confirmed design decisions. Install the second skill only when PowerPoint output is needed.

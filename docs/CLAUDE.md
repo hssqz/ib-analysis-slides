@@ -7,7 +7,7 @@
 
 - validation-v07.json: v0.7 role, migration, independent revision and final distributed-file hashes (ignored bytecode excluded).
 
-- validation.json: Public-example hashes and actual release checks.
+- validation.json: v0.6.1 public-example evidence plus v0.9 Blackstone validation, clean-container and final file hashes.
 
 - forward-test.md: Independent public trial, corrected quality assessment, language regression and matched rich-input comparison.
 

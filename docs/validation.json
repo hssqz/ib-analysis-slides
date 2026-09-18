@@ -52,5 +52,157 @@
       "overlapCandidates": 0,
       "externalRequests": 0
     }
+  },
+  "blackstoneV09": {
+    "version": "0.9.0",
+    "date": "2026-09-18",
+    "scope": "Five historical Blackstone themes, selected capabilities; 7 original examples; existing 14 Goldman pages preserved",
+    "independent": {
+      "freshContexts": 3,
+      "model": "gpt-6-astra",
+      "firstPassPages": 9,
+      "longLabelRevisionPages": 1,
+      "syntheticAppendedPages": 2,
+      "unaffectedPagesHtmlAndPngIdentical": 6,
+      "reports": [
+        "ASML 2024 EU-IFRS",
+        "Microsoft FY2025",
+        "IEA Global EV Outlook 2025 revised July",
+        "JPM 4Q24 financial supplement"
+      ],
+      "review": "Source facts, calculations, actual screenshots and six source-style comparisons reviewed",
+      "disclosedCorrection": "Microsoft self-review softened one unsupported delivery-constraint phrase before first delivery; both versions retained privately",
+      "isolation": "Fresh contexts and work directories; shared host, not OS access isolation"
+    },
+    "cleanInstall": {
+      "image": "node:24-bookworm",
+      "id": "sha256:55ab623bfcd9ee77067924cf18e428841b64653b9521f086393266056e34c201",
+      "repoDigests": [
+        "node@sha256:6dac556d980b7f0e5498d08f08cee0ca67798b4ad6c23964a9214920e67758d0"
+      ],
+      "architecture": "arm64",
+      "hostMounts": [
+        "complete candidate /input read-only",
+        "validation output /out"
+      ],
+      "notMounted": [
+        "host home",
+        "personal skills",
+        "host node_modules",
+        "host browser cache"
+      ],
+      "network": "only dependency/image installation; HTML capture blocked HTTP(S)",
+      "result": "PASS; 7 rebuilt pages, deterministic HTML, actual Linux Chromium render",
+      "fontLimit": "System fallbacks differ from macOS; no proprietary fonts installed; no cross-OS pixel identity claimed"
+    },
+    "candidateToFinal": {
+      "scope": "Release version, routing/status and validation-summary Markdown only; no behavior, examples or helper changes",
+      "files": {
+        "skills/ib-analysis-slides/SKILL.md": {
+          "candidate": "8ad8b33d88ac52c43873d5ada47081bc1ec31a9b2d65dbd7a9cbc4c9b4145aaa",
+          "final": "65323d6074c21a922fa92367c58b7a2e3aff3aa510a429935582f6d96eee1822"
+        },
+        "skills/ib-analysis-slides/CLAUDE.md": {
+          "candidate": "db934b733365964816f51d7d667081006e86aa9e5419ffd9cdc68122df4ddbea",
+          "final": "4d57652b583bf2ccd6b407246cbccdf3b59919410bea7b8ed1c7416f0a2b28fa"
+        },
+        "skills/ib-analysis-slides/banks/CLAUDE.md": {
+          "candidate": "1ed1e3e29ca35a6a6c8923e7db7c8378e0e08bdabe58104e5f1fc96ac5d308f2",
+          "final": "77cedd41e99f6cc1eb01cae8e1969243ad92469d0636a8f384e3c8b60e592940"
+        },
+        "skills/ib-analysis-slides/banks/blackstone/investor-day-2023.md": {
+          "candidate": "9ae4fd309a26b39c73cd2cd1555a4bbee7767f144a1a1458dae7889098f6b8e9",
+          "final": "20fcba3588ee029a704cfdfa9be0834f095e4932ae8907694b2c1c3f5c268935"
+        },
+        "skills/ib-analysis-slides/banks/blackstone/selection.md": {
+          "candidate": "192c1727010b6c7d4dbee8883a56a34979e6d61850481db64695772a797cf7a6",
+          "final": "aa1be1191c09863ce347ebc4cd6a50dbb3ccea42137f6ca07f169873f99ac81a"
+        },
+        "skills/ib-analysis-slides/banks/blackstone/PROFILE.md": {
+          "candidate": "c04dcaad961c2aa6edf681da972ca631a1004124ff32717d6abb837aeda76a9f",
+          "final": "f44a0823ea8b8443dd556461f28939653daafba01c0826e9e6a6d7cea5b25564"
+        },
+        "skills/ib-analysis-slides/banks/blackstone/examples/sources.md": {
+          "candidate": "e22e4d4d0b76aab2a6d6d5dd1322e9fa869b9c14de7cdbb51e0ad9774a38b470",
+          "final": "4859ef0568f703a14b228dfb7c11f333a3210775d9d1fd6f9467ea8be3232b94"
+        }
+      }
+    },
+    "files": {
+      "skills/ib-analysis-slides/CLAUDE.md": "4d57652b583bf2ccd6b407246cbccdf3b59919410bea7b8ed1c7416f0a2b28fa",
+      "skills/ib-analysis-slides/LICENSE": "70d466cfbdedac90d5a344587e6b540f5ddf62cd3cafe2e6d1a34532c7608460",
+      "skills/ib-analysis-slides/SKILL.md": "65323d6074c21a922fa92367c58b7a2e3aff3aa510a429935582f6d96eee1822",
+      "skills/ib-analysis-slides/banks/CLAUDE.md": "77cedd41e99f6cc1eb01cae8e1969243ad92469d0636a8f384e3c8b60e592940",
+      "skills/ib-analysis-slides/banks/blackstone/CLAUDE.md": "19b70e9e4afeb886e5ba9809928879bb69bf70d51e88e3d98f23614da7aca147",
+      "skills/ib-analysis-slides/banks/blackstone/PROFILE.md": "f44a0823ea8b8443dd556461f28939653daafba01c0826e9e6a6d7cea5b25564",
+      "skills/ib-analysis-slides/banks/blackstone/credit-2025.md": "e52da2ca38d46c723a0bf36535b5bf6b78dfec67c8a1eae0022238fab9316629",
+      "skills/ib-analysis-slides/banks/blackstone/examples/CLAUDE.md": "08821fe0b2e2571c7028d7e40d3b6a080aa888d0491ad2e41d2195d6385717a5",
+      "skills/ib-analysis-slides/banks/blackstone/examples/build.py": "2b4e66680837bf5677d272a7f277ebc69409a63363f24cfdeabd91ad5481bcc9",
+      "skills/ib-analysis-slides/banks/blackstone/examples/drawing.py": "e1e3a9a03642b672ab1ea3af15d316f676b8fffcce6a4828aa6adbb462464c3d",
+      "skills/ib-analysis-slides/banks/blackstone/examples/index.html": "0c7f4bba73b3e8334efae53b49fb93d8576d1376c02df0df2441ce728e6a282c",
+      "skills/ib-analysis-slides/banks/blackstone/examples/preview.png": "00247838ebb59098eb2826cc7a282777f74c815e79699748dd928e955bb6433c",
+      "skills/ib-analysis-slides/banks/blackstone/examples/sources.md": "4859ef0568f703a14b228dfb7c11f333a3210775d9d1fd6f9467ea8be3232b94",
+      "skills/ib-analysis-slides/banks/blackstone/investor-day-2023.md": "20fcba3588ee029a704cfdfa9be0834f095e4932ae8907694b2c1c3f5c268935",
+      "skills/ib-analysis-slides/banks/blackstone/selection.md": "aa1be1191c09863ce347ebc4cd6a50dbb3ccea42137f6ca07f169873f99ac81a",
+      "skills/ib-analysis-slides/banks/blackstone/strategy-2020.md": "fc40556f38f3221c75f0440e70af3eac85bee90029f384e3425a4dadb1fb9f0c",
+      "skills/ib-analysis-slides/banks/goldman/CLAUDE.md": "95c4959035b1643a9b2ac7a60d1ecf0926a9ae251ecac49a800f75ef5f3d114b",
+      "skills/ib-analysis-slides/banks/goldman/PROFILE.md": "c907eae0a7d3d3250cb10fb1452fb50081ba8cbe2f03ae7443eaac449a61ba3f",
+      "skills/ib-analysis-slides/banks/goldman/bernstein.md": "c15e637be4120641c4366366310163339234047e3544fc986e1f80ada3ef6b5e",
+      "skills/ib-analysis-slides/banks/goldman/earnings.md": "e25d1111df750c4724a2eca163e41d8d39fe1fe0c5e35e6cf8350ce2d4e031bc",
+      "skills/ib-analysis-slides/banks/goldman/examples/CLAUDE.md": "f2eb2a935e8fd20f4a115f9a91086b8433d14e38a086880638095c02859fcbcb",
+      "skills/ib-analysis-slides/banks/goldman/examples/README.md": "376e6e6de35700f9d773a48c1c023ae5925a3a1fbac02ea368921487ac5336a8",
+      "skills/ib-analysis-slides/banks/goldman/examples/analysis/CLAUDE.md": "0d3f9adf947ae399963c092df45bdc153910e2106d8f802b89de5b2cc03d8003",
+      "skills/ib-analysis-slides/banks/goldman/examples/analysis/index.html": "f579dc4b3322feef04d781cc2db5dd18833f26f4f9bcceae2035162af7d491ed",
+      "skills/ib-analysis-slides/banks/goldman/examples/analysis/preview.png": "ff3da16d8876ab802b1f5d0f1d24743c6cd50077062731b40f48b82021f147bd",
+      "skills/ib-analysis-slides/banks/goldman/examples/financial/CLAUDE.md": "4ad7c03ad01ebff7384008ffd5b8a47877c9e51093ac93fa5807647349c62c56",
+      "skills/ib-analysis-slides/banks/goldman/examples/financial/index.html": "1094b2f410d079013fed51fd030df37b292f80f6c3c4fdf84e57248bb5aed599",
+      "skills/ib-analysis-slides/banks/goldman/examples/financial/preview.png": "988f0191994a29719b2512c66e2d3b4a9055900c8162c4582d0f02b9b47e699a",
+      "skills/ib-analysis-slides/banks/goldman/examples/input.md": "d84cf16f3c6d4c8f852e84f9e7fb5436b7098236ede032593f2c5a1da0d2c91c",
+      "skills/ib-analysis-slides/banks/goldman/examples/relationships/CLAUDE.md": "d57c91bb39d7e7e3a37d4ddd2a3775f56c36eb6b10c1a241680a226b50abeb5a",
+      "skills/ib-analysis-slides/banks/goldman/examples/relationships/analysis.html": "7d9e89b844c176a52eb6e4c380f1546025f0410134669b492f1a6096cae2f97a",
+      "skills/ib-analysis-slides/banks/goldman/examples/relationships/financial.html": "33636398a2dfa5861ae8ae5de715b3a80d39b0b672a3826daff85b6e9b5cfdb9",
+      "skills/ib-analysis-slides/banks/goldman/examples/relationships/preview.png": "443ed76b82923697f5048624d702e2eef4e49701288e382d95fa84e0b2ba57cf",
+      "skills/ib-analysis-slides/banks/goldman/examples/relationships/sources.md": "e8f03c1cfab7345f6c1a4c2f1a06ca550d3c08c8fcdf10153e2f342841e9be9d",
+      "skills/ib-analysis-slides/banks/goldman/examples/typography/CLAUDE.md": "47d354a5e42e97265c150f10a14747e5091c24ef8e469fad621a12c9d0c67887",
+      "skills/ib-analysis-slides/banks/goldman/examples/typography/build.py": "3ba97740527ab35d9e2e9b3c705226d52992b7a03ae7d850617aee0626a93ce5",
+      "skills/ib-analysis-slides/banks/goldman/examples/typography/index.html": "2612f05a0655cbbe3cf1419086b23b9f993632a18655944242818875c9c09b39",
+      "skills/ib-analysis-slides/banks/goldman/examples/typography/preview.png": "7e74fbfc5b570d9a4d0f25e841c5f15dca20244c8ee197f3165ba241220e7f86",
+      "skills/ib-analysis-slides/banks/goldman/examples/typography/sources.md": "d0b48033a64bc33fcaa717c298967666cb6845e271a65bf0fead3957d96528cf",
+      "skills/ib-analysis-slides/references/CLAUDE.md": "28f80781d36070f274c328abb1e25758603bbebe70dce9b2ef44d87dcd52417a",
+      "skills/ib-analysis-slides/references/evidence.md": "b1c0e157cb78de8e8279bbaf46615c029023f2faad31acba86f1d2bda97c8201",
+      "skills/ib-analysis-slides/references/execution.md": "74c214e65624612a1ae835bc93aa1a6d7d349574ec04c276d9f54128c16b39eb",
+      "skills/ib-analysis-slides/scripts/CLAUDE.md": "c4bacf6fee2fbfc90da00fa5d3d68e32d1e13be77a1ebc1ea15519fa3b32909f",
+      "skills/ib-analysis-slides/scripts/capture_pages.cjs": "1172c19534f24a32bf714aff2ddb4977259d6afaf3498f3c845bd0ad089f47b2",
+      "skills/ib-analysis-slides/scripts/check_package.py": "cb1327ea8f7abb290a59e9c6264bc4a88aba22a412cd2dbe72ae3c164439a095"
+    },
+    "assets": {
+      "ib-analysis-slides-v0.9.0.zip": "db9d5b5343b6aa5ca0077ae91a2e2ae357edaad49612b9a77cc803cb1a28cb9d",
+      "ppt-maker-v0.9.0.zip": "993ccde92fd8b6bb5c46f6d5d4d4c0ec270e6cb451ce52e02b7e97596f9ae63a"
+    },
+    "limits": [
+      "Not all 66 observed variants",
+      "System font substitutions, no brand-font or cross-platform pixel identity",
+      "Original bubble-size data and sensitivity model unavailable",
+      "No new Blackstone PPTX or Office certification",
+      "User approval covers local six-page migration, not independent outputs"
+    ],
+    "finalZipInstall": {
+      "status": "PASS",
+      "node": "24.21.0",
+      "python": "3.11.2",
+      "playwright": "1.62.1",
+      "chromium": "151.0.7922.34",
+      "platform": "Linux ARM64 Debian12",
+      "input": "Final release ZIP plus declared public package.json/package-lock.json only",
+      "checks": [
+        "Fresh npm installation and browser/system dependency installation",
+        "Deterministic seven-page rebuild",
+        "6 HTML /21 slides static pass",
+        "Capture helper self-test",
+        "7 actual final ZIP renders; no outside/overlap/network candidates",
+        "7 PNG byte-identical to previously reviewed clean-container renders"
+      ],
+      "htmlSha256": "0c7f4bba73b3e8334efae53b49fb93d8576d1376c02df0df2441ce728e6a282c"
+    }
   }
 }

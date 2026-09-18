@@ -4,18 +4,21 @@
 
 **把研究材料变成投行风格的演示：图表可编辑、信息密度高、证据可追溯。**
 
-两个独立 Skill 协作：`ib-analysis-slides` 负责研究材料与投行风格 HTML，`ppt-maker` 负责可编辑 PPTX 和可重建源码。目前已支持高盛，后续将陆续加入更多外资及内地机构。
+两个独立 Skill 协作：`ib-analysis-slides` 负责研究材料与投行风格 HTML，`ppt-maker` 负责可编辑 PPTX 和可重建源码。目前已支持高盛及黑石五套历史主题，后续将陆续加入更多外资及内地机构。
 
 ![文字角色示例：分组标题、对象配色、斜体证据与财务层级](../skills/ib-analysis-slides/banks/goldman/examples/typography/preview.png)
 ![财务页面示例：可编辑表格与利润驱动](../skills/ib-analysis-slides/banks/goldman/examples/financial/preview.png)
 
-预览数据均为虚构。本项目独立开发，与高盛无隶属关系，亦未获得其背书。
+预览数据均为虚构。本项目独立开发，与高盛、黑石无隶属关系，亦未获得其背书。
+
+![黑石风格：投资者概览、业绩、信贷与策略案例](../skills/ib-analysis-slides/banks/blackstone/examples/preview.png)
 
 ## 支持的机构风格
 
 已勾选为已支持，未勾选为待支持；暂无具体上线时间。
 
 - [x] 高盛 · Goldman Sachs
+- [x] 黑石 · Blackstone（五套历史主题，支持已验证的分析能力）
 - [ ] 摩根大通 · J.P. Morgan
 - [ ] 摩根士丹利 · Morgan Stanley
 - [ ] 美国银行 · Bank of America
@@ -61,7 +64,7 @@
 
 ## 能力范围与贡献
 
-目前支持高盛风格的投资者演示，具体能力和边界见版本说明。
+目前支持高盛风格的投资者演示，以及黑石 Investor、Earnings、Credit-market、Investor Day、Investment Strategy 五套历史主题。黑石包含七页原创实例；已观察的源页目录不等于全部变体均已实现。具体能力和边界见版本说明。
 
 [发布与验证记录](release.md)说明已验证的能力和剩余限制；[贡献指南](contributing.md)介绍如何在同一个 Skill 中新增机构风格。如果对你有帮助，欢迎点个 Star，让更多人发现这个项目。
 

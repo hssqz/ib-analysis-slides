@@ -92,7 +92,9 @@ def main():
         for name in ['references/evidence.md', 'references/execution.md', 'banks/goldman/PROFILE.md']:
             assert (ROOT / name).is_file(), name
         check_links(ROOT)
-        targets = sorted((ROOT / 'banks/goldman/examples').rglob('*.html'))
+        profiles = [p for p in (ROOT / 'banks').iterdir() if p.is_dir()]
+        assert all((p / 'PROFILE.md').is_file() for p in profiles), 'Missing profile route'
+        targets = sorted(p for bank in profiles for p in (bank / 'examples').rglob('*.html'))
         assert targets, 'No public example documents found'
     counts = [check_html(path, args.language if args.paths else "en") for path in targets]
     print(f'PASS: {len(targets)} HTML documents, {sum(counts)} slides; static checks and self-test')
