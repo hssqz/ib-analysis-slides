@@ -5,7 +5,7 @@
 - contributing.md: Bank contributions and review requirements.
 - release.md: Public scope and validation provenance.
 
-- validation-v07.json: v0.7 role, migration, independent revision and final package hashes.
+- validation-v07.json: v0.7 role, migration, independent revision and final distributed-file hashes (ignored bytecode excluded).
 
 - validation.json: Public-example hashes and actual release checks.
 

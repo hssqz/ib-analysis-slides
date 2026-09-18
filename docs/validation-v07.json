@@ -35,7 +35,6 @@
       "references/evidence.md": "b1c0e157cb78de8e8279bbaf46615c029023f2faad31acba86f1d2bda97c8201",
       "references/execution.md": "cbed751c7090c61e5781362661f198ea496816f1d19e80e92f142bce21eb227f",
       "scripts/CLAUDE.md": "689dbc1b0670d6117c05e93c159e40ab1d2e71ad22a5b559c4888def8687ff45",
-      "scripts/__pycache__/check_package.cpython-313.pyc": "694f2ac438f94979fa1b62777d1305ebae24c589c50720531945a2922bcbb240",
       "scripts/capture_pages.cjs": "1172c19534f24a32bf714aff2ddb4977259d6afaf3498f3c845bd0ad089f47b2",
       "scripts/check_package.py": "42c8f69d21029747c6b03289e0a829382106c6e9bd5cabbd728c89908e6f8a9d"
     }
@@ -97,5 +96,6 @@
     "Independent tasks had no development history but used the same host and declared installed dependencies.",
     "No new user visual acceptance claimed."
   ],
-  "independent_review": "Separate reviewer checked source style pages, original factual inputs and actual final screenshots; Adobe correction and Microsoft label regression passed within stated scope."
+  "independent_review": "Separate reviewer checked source style pages, original factual inputs and actual final screenshots; Adobe correction and Microsoft label regression passed within stated scope.",
+  "manifest_note": "Final distribution manifest excludes ignored local Python bytecode. This documentation correction does not alter the v0.7.0 tag or Skill ZIP."
 }
