@@ -1,7 +1,7 @@
 # goldman/
 > L2 | Parent: ../CLAUDE.md
 
-- PROFILE.md: Goldman profile selection and support boundary.
+- PROFILE.md: Goldman profile selection, mandatory English and support boundary.
 - bernstein.md: Analytical visual grammar and evidence contracts.
 - earnings.md: Financial table grammar and layout contracts.
 - examples/: Scoped resources; see its CLAUDE.md.

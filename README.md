@@ -47,7 +47,7 @@ PPTX export requires a separate exporter.
 
 Current support covers Goldman Sachs-style investor presentations. Detailed capabilities and limits are documented in the release notes.
 
-[Release and validation](docs/release.md) distinguishes tested behavior from remaining limits. [Contributing](docs/contributing.md) explains how to add a bank profile without duplicating the main skill. If the results help, a star makes the project easier to discover.
+[Release and validation](docs/release.md) distinguishes tested behavior from remaining limits. An [independent public-package trial](docs/forward-test.md) completed installation and four new English pages using only the public skill. [Contributing](docs/contributing.md) explains how to add a bank profile without duplicating the main skill. If the results help, a star makes the project easier to discover.
 
 ## License
 

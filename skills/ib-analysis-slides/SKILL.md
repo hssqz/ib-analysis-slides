@@ -5,14 +5,14 @@ description: Turn research and financial evidence into dense, editable investmen
 
 <!--
 [INPUT]: User evidence and scope; shared references and a selected bank profile.
-[OUTPUT]: Offline English HTML with sources, page decisions and actual rendering review.
+[OUTPUT]: Offline HTML in the selected profile language, with sources, page decisions and actual rendering review.
 [POS]: One skill entrypoint; bank-specific visual rules load on demand.
 [PROTOCOL]: 变更时更新此头部，然后检查 CLAUDE.md
 -->
 
 # IB Analysis Slides
 
-Version 0.6.1. Default output is editable offline HTML, with English titles, body, chart labels and source notes even when input research is Chinese. Follow an explicit user language request. The supplied profiles are unofficial interpretations of investor-presentation styles.
+Version 0.6.2. Default output is editable offline HTML. Output language belongs to the bank profile: current Goldman profiles require English titles, body, chart labels and source notes, including when input research is Chinese. The shared workflow can handle Chinese and English; future domestic-bank profiles will define their own language and typography rules. No Chinese bank profile is bundled yet. The supplied profiles are unofficial interpretations of investor-presentation styles.
 
 ## Route the request
 

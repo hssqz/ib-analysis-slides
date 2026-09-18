@@ -1,3 +1,13 @@
+## v0.6.2 — profile language contracts
+
+Released 2026-09-18. [Independent public-package trial](forward-test.md): public installation, browser setup, checks and four-page generation passed on v0.6.1. This patch received focused language and existing-output regressions.
+
+Goldman Sachs profiles require English output, including when research inputs are Chinese. Shared language handling is kept separate for future domestic-bank profiles; no Chinese bank profile is released by this update.
+
+The static checker accepts `--language` and keeps English as its default and as the packaged Goldman-example requirement. Regression verifies that a Chinese-declared document fails the Goldman English check and passes an explicitly selected Chinese-language check. Visible prose still requires actual review.
+
+---
+
 # v0.6.1 — first public package
 
 Released 2026-09-18. One installable skill, Goldman Sachs-inspired analytical and reporting profiles, ten fictional example pages and optional screenshot tooling.
