@@ -1,0 +1,101 @@
+{
+  "version": "0.7.0",
+  "date": "2026-09-18",
+  "status": "reviewed-with-disclosed-first-pass-error",
+  "package": {
+    "files": {
+      "CLAUDE.md": "9a3a2ecaf1178890a33498553f973a133367d3ad50822c00640a21ad0502ae0b",
+      "LICENSE": "70d466cfbdedac90d5a344587e6b540f5ddf62cd3cafe2e6d1a34532c7608460",
+      "SKILL.md": "95c3252d88c6d511147585819686a8931791cc71f71d7104351289292b24e7fa",
+      "banks/CLAUDE.md": "9fae6f366392c54cecd94ce4699b9f923dedf8fa25ffada12d7f1e45553e18a2",
+      "banks/goldman/CLAUDE.md": "95c4959035b1643a9b2ac7a60d1ecf0926a9ae251ecac49a800f75ef5f3d114b",
+      "banks/goldman/PROFILE.md": "c907eae0a7d3d3250cb10fb1452fb50081ba8cbe2f03ae7443eaac449a61ba3f",
+      "banks/goldman/bernstein.md": "c15e637be4120641c4366366310163339234047e3544fc986e1f80ada3ef6b5e",
+      "banks/goldman/earnings.md": "e25d1111df750c4724a2eca163e41d8d39fe1fe0c5e35e6cf8350ce2d4e031bc",
+      "banks/goldman/examples/CLAUDE.md": "f2eb2a935e8fd20f4a115f9a91086b8433d14e38a086880638095c02859fcbcb",
+      "banks/goldman/examples/README.md": "376e6e6de35700f9d773a48c1c023ae5925a3a1fbac02ea368921487ac5336a8",
+      "banks/goldman/examples/analysis/CLAUDE.md": "0d3f9adf947ae399963c092df45bdc153910e2106d8f802b89de5b2cc03d8003",
+      "banks/goldman/examples/analysis/index.html": "f579dc4b3322feef04d781cc2db5dd18833f26f4f9bcceae2035162af7d491ed",
+      "banks/goldman/examples/analysis/preview.png": "ff3da16d8876ab802b1f5d0f1d24743c6cd50077062731b40f48b82021f147bd",
+      "banks/goldman/examples/financial/CLAUDE.md": "4ad7c03ad01ebff7384008ffd5b8a47877c9e51093ac93fa5807647349c62c56",
+      "banks/goldman/examples/financial/index.html": "1094b2f410d079013fed51fd030df37b292f80f6c3c4fdf84e57248bb5aed599",
+      "banks/goldman/examples/financial/preview.png": "988f0191994a29719b2512c66e2d3b4a9055900c8162c4582d0f02b9b47e699a",
+      "banks/goldman/examples/input.md": "d84cf16f3c6d4c8f852e84f9e7fb5436b7098236ede032593f2c5a1da0d2c91c",
+      "banks/goldman/examples/relationships/CLAUDE.md": "d57c91bb39d7e7e3a37d4ddd2a3775f56c36eb6b10c1a241680a226b50abeb5a",
+      "banks/goldman/examples/relationships/analysis.html": "7d9e89b844c176a52eb6e4c380f1546025f0410134669b492f1a6096cae2f97a",
+      "banks/goldman/examples/relationships/financial.html": "33636398a2dfa5861ae8ae5de715b3a80d39b0b672a3826daff85b6e9b5cfdb9",
+      "banks/goldman/examples/relationships/preview.png": "443ed76b82923697f5048624d702e2eef4e49701288e382d95fa84e0b2ba57cf",
+      "banks/goldman/examples/relationships/sources.md": "e8f03c1cfab7345f6c1a4c2f1a06ca550d3c08c8fcdf10153e2f342841e9be9d",
+      "banks/goldman/examples/typography/CLAUDE.md": "47d354a5e42e97265c150f10a14747e5091c24ef8e469fad621a12c9d0c67887",
+      "banks/goldman/examples/typography/build.py": "3ba97740527ab35d9e2e9b3c705226d52992b7a03ae7d850617aee0626a93ce5",
+      "banks/goldman/examples/typography/index.html": "2612f05a0655cbbe3cf1419086b23b9f993632a18655944242818875c9c09b39",
+      "banks/goldman/examples/typography/preview.png": "7e74fbfc5b570d9a4d0f25e841c5f15dca20244c8ee197f3165ba241220e7f86",
+      "banks/goldman/examples/typography/sources.md": "d0b48033a64bc33fcaa717c298967666cb6845e271a65bf0fead3957d96528cf",
+      "references/CLAUDE.md": "28f80781d36070f274c328abb1e25758603bbebe70dce9b2ef44d87dcd52417a",
+      "references/evidence.md": "b1c0e157cb78de8e8279bbaf46615c029023f2faad31acba86f1d2bda97c8201",
+      "references/execution.md": "cbed751c7090c61e5781362661f198ea496816f1d19e80e92f142bce21eb227f",
+      "scripts/CLAUDE.md": "689dbc1b0670d6117c05e93c159e40ab1d2e71ad22a5b559c4888def8687ff45",
+      "scripts/__pycache__/check_package.cpython-313.pyc": "694f2ac438f94979fa1b62777d1305ebae24c589c50720531945a2922bcbb240",
+      "scripts/capture_pages.cjs": "1172c19534f24a32bf714aff2ddb4977259d6afaf3498f3c845bd0ad089f47b2",
+      "scripts/check_package.py": "42c8f69d21029747c6b03289e0a829382106c6e9bd5cabbd728c89908e6f8a9d"
+    }
+  },
+  "checks": {
+    "package": "PASS: 5 HTML documents, 14 slides; links, static checks and self-test",
+    "capture_self_test": "PASS: navigation isolation, visible slide, SVG overflow and overlap detection",
+    "git_diff_check": "passed"
+  },
+  "examples": {
+    "new_pages": 4,
+    "html_sha256": "2612f05a0655cbbe3cf1419086b23b9f993632a18655944242818875c9c09b39",
+    "final_screenshots": {
+      "01.png": "5ef3c3b4abc717d78c0fb3675b83e346ce5f25299d3369eb66fa61c3c506fc59",
+      "02.png": "a7fc9d4267d28e4d48749b280db74eaa9ffe191d7ac0376b36662642a1588858",
+      "03.png": "5a81e7772b0a01c891077f1213452f61ffda46c87f25ed1b4511da4274e2e3e0",
+      "04.png": "d15b3642576a8e51f123a2bdaa59bb4b16b0e905799a49da636b228b1113d81b"
+    },
+    "review": "All four new pages actually rendered and viewed against source roles; original fictional adaptations, not pixel-identical reconstructions. Existing ten example pages unchanged."
+  },
+  "local_trials": {
+    "ASML": {
+      "pages": 3,
+      "html_sha256": "1085dac08a81e63003135e1530a747469d4743be34709da7e9817d335c93a504"
+    },
+    "Morgan Stanley": {
+      "pages": 2,
+      "html_sha256": "5f9956b4926e9da3bdeca63591eeb8deb5a0c795a1ae254708f0a6287b4c71a3"
+    }
+  },
+  "independent": {
+    "Microsoft": {
+      "pages": 4,
+      "first_html_sha256": "63d90e45a1e4c1549a5dc5b253c2c990de03dcd123f1f7afa5b6f2e3e7ab0317",
+      "label_revision_sha256": "7996a0762087636bf88937eb81c64aa0478021c1f9edbbf03c8fd7dd79ca9e06",
+      "result": "Source facts, text roles and actual screenshots reviewed. Two long labels reflowed; unaffected pages 2–4 HTML and PNG bytes identical."
+    },
+    "Adobe": {
+      "pages": 3,
+      "first_html_sha256": "49f5cda309d58a6b8dd41a4ef4f7d173e22651f7b535a1994d6ac86a7ecf4e86",
+      "first_result": "Visual profile passed; first delivery contained one computed-growth error (29.2% vs 29.1%). Preserved as a failed first-pass calculation.",
+      "corrected_html_sha256": "ee07924d62348eeef345bd0ff9d93b8d2b2c0a42f97831e81d19a8f94233d163",
+      "correction": "54 displayed derived values checked against formulas and final HTML contexts; mutation regression rejects 29.2%. Pages 2–3 HTML and PNG bytes unchanged; first delivery preserved."
+    }
+  },
+  "candidate_delta": {
+    "path": "banks/goldman/examples/README.md",
+    "reason": "Catalog-only correction: new T1 includes action/status ring and the four new examples include a builder. All runtime rules, examples and scripts identical to the independently tested snapshot."
+  },
+  "installation": {
+    "result": "npm ci, npm test, npm run test:capture and four-page actual capture passed in a separate directory",
+    "environment": "same macOS host, existing system Chrome 153.0.8010.52, Node 26.6.0, Playwright 1.62.1, system Arial",
+    "limit": "Not a clean OS install or cross-platform font parity test."
+  },
+  "limits": [
+    "Incremental text-role and grouping validation, not all chart variants or arbitrary label lengths.",
+    "Status icons had a fictional worked example; automatic selection on new real evidence was not triggered.",
+    "No PowerPoint/PPTX export or pixel-equivalence claim.",
+    "Independent tasks had no development history but used the same host and declared installed dependencies.",
+    "No new user visual acceptance claimed."
+  ],
+  "independent_review": "Separate reviewer checked source style pages, original factual inputs and actual final screenshots; Adobe correction and Microsoft label regression passed within stated scope."
+}

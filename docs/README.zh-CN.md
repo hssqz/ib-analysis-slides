@@ -6,7 +6,7 @@
 
 一个 Skill，支持多家投行风格。目前已支持高盛，后续将陆续加入更多外资及内地机构。
 
-![分析页面示例：历史构成与收入子集](../skills/ib-analysis-slides/banks/goldman/examples/analysis/preview.png)
+![文字角色示例：分组标题、对象配色、斜体证据与财务层级](../skills/ib-analysis-slides/banks/goldman/examples/typography/preview.png)
 ![财务页面示例：可编辑表格与利润驱动](../skills/ib-analysis-slides/banks/goldman/examples/financial/preview.png)
 
 预览数据均为虚构。本项目独立开发，与高盛无隶属关系，亦未获得其背书。

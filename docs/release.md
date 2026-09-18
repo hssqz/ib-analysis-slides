@@ -1,3 +1,17 @@
+## v0.7.0 — text roles and grouping geometry
+
+Released 2026-09-18. Analytical pages now preserve regular tracked scope labels, folded grouping lines, object-owned text colors, neutral shared concepts and readable italic evidence. Financial pages keep their own title, section, unit and accounting-weight grammar. Selection follows the evidence relationship; these treatments are not mandatory ornaments.
+
+Four original fictional whole-page examples bring the bundle to fourteen pages. Their gallery includes a reproducible Python builder, editable HTML and an actual rendered preview. Original bank reports, report screenshots, logos and fonts remain outside the distribution.
+
+Validation includes four new example pages, five local migration pages and seven pages from two fresh tasks using held-out Microsoft/Adobe official reports. Independent review compared actual screenshots with authorized style references. Two long labels were then edited; unaffected pages retained identical HTML and PNG bytes. Adobe's first delivery contained one financial calculation error (29.2% instead of 29.1% operating-income growth); the preserved correction computes from the source amounts and checks 54 displayed derived values, including a regression that rejects the wrong result. This was a generation/checking failure, not an unqualified first-pass success. See [checks, hashes and limitations](validation-v07.json).
+
+The complete package passed static/link checks, screenshot-helper self-test and a separate-directory npm installation with actual rendering on the same host. The final skill differs from the frozen independent-test candidate only in the example catalog description, which now acknowledges the new action-status example and builder. Rules, examples and scripts are unchanged from that candidate.
+
+This is incremental role/grouping validation. It does not establish every chart's automatic selection, arbitrary label handling, clean-OS installation, cross-platform font parity, original-page pixel identity or PPTX export. New user visual acceptance is not claimed. Goldman output remains English; no additional bank profile is released.
+
+---
+
 ## v0.6.2 — profile language contracts
 
 Released 2026-09-18. [Independent public-package trial](forward-test.md): public installation, browser setup, checks and four-page generation completed on v0.6.1; its later user visual-quality assessment did not pass. This patch received focused language and existing-output regressions. A subsequent matched rich-input comparison found no clear overall quality drop in five analytical pages; scope and limitations are recorded in the trial report.

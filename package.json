@@ -1,6 +1,6 @@
 {
   "name": "ib-analysis-slides",
-  "version": "0.6.2",
+  "version": "0.7.0",
   "private": true,
   "description": "Optional rendering tools for the IB Analysis Slides skill",
   "license": "MIT",

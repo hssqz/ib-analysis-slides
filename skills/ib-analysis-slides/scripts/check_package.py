@@ -93,7 +93,7 @@ def main():
             assert (ROOT / name).is_file(), name
         check_links(ROOT)
         targets = sorted((ROOT / 'banks/goldman/examples').rglob('*.html'))
-        assert len(targets) == 4, 'Expected four public example documents'
+        assert targets, 'No public example documents found'
     counts = [check_html(path, args.language if args.paths else "en") for path in targets]
     print(f'PASS: {len(targets)} HTML documents, {sum(counts)} slides; static checks and self-test')
 

@@ -1,6 +1,6 @@
 # Fictional, editable examples
 
-All content comes from [input.md](input.md), a synthetic manufacturing company and a separately scoped investment subsidiary. USD millions and USD billions are distinct. These examples demonstrate style and evidence relationships, not investment research. Original institutional documents, logos and legal text are excluded.
+The original examples use [input.md](input.md), a synthetic manufacturing company and a separately scoped investment subsidiary. USD millions and USD billions are distinct. These examples demonstrate style and evidence relationships, not investment research. Original institutional documents, logos and legal text are excluded.
 
 | File/page | Evidence relationship | Profile task |
 |---|---|---|
@@ -15,10 +15,12 @@ All content comes from [input.md](input.md), a synthetic manufacturing company a
 | relationships/analysis B3 | Cumulative history and comparable peers, explicit axis/bar break | Selective stack and honest broken axis |
 | [relationships/financial](relationships/financial.html) E1 | AUM bridge and two quantitative donuts of the same total | Independent composition views |
 
-These are complete editable HTML files, with text/table cells and SVG shapes. Inspect the relevant article before adapting. Reflow whenever evidence, categories or label length change; these are not universal fill-in templates. The public bundle omits original source reconstructions. Rules describe some patterns without a public example (overlap, fee cycle, action-status ring, loan-risk chart and full capital/per-share table).
+The additional [text-role gallery](typography/index.html) has its own [fictional evidence and mapping](typography/sources.md): T1 paired customer roles/status, T2 claims with italic evidence and no bracket, T3 uneven product categories, and T4 financial text/table roles. Its fictional entity is independent of the earlier input.
+
+These are complete editable HTML files, with text/table cells and SVG shapes. Inspect the relevant article before adapting. Reflow whenever evidence, categories or label length change; these are not universal fill-in templates. The public bundle omits original source reconstructions. Rules describe some patterns without a public example (overlap, fee cycle, loan-risk chart and full capital/per-share table).
 
 Key arithmetic: manufacturing revenue126=96+30, operating profit−4, net profit−6; software12 is inside services30. FY2025 quarters26+29+31+40=126. Assets100=liabilities65+equity35;35−36−(−6)=5 is an unexplained net equity movement, not a fabricated financing event. Subsidiary180+12−8−4=180; asset72+54+36+18 and channel108+72 are each180;fee-earning150 is a subset. Fundraising32+28+20=80 is cumulative. In the directed peer example, the 120–260 interval is explicitly omitted from both the axis and the highest bar with a common scale elsewhere.
 
-The input mentions an earlier conflicting draft; it is not bundled or needed to reproduce the demonstrated values. Use input.md as the declared authoritative fictional disclosure. This release includes static editable pages, not their original development generators or QA traces. New output should retain its own sources and reconstruction commands where a generator is used.
+The input mentions an earlier conflicting draft; it is not bundled or needed to reproduce the demonstrated values. Use input.md as the declared authoritative fictional disclosure. The original ten pages are static editable examples without their development generators or QA traces. The four-page text-role gallery also includes its deterministic Python builder; its T1 adds a worked action-status ring. New output should retain its own sources and reconstruction commands where a generator is used.
 
 [PROTOCOL]: 变更时更新此头部，然后检查 CLAUDE.md

@@ -1,6 +1,6 @@
 # Goldman Sachs-inspired profiles
 
-Visual rules retain the accepted v0.6 basis. Source observations come from investor communications, not internal investment-committee or transaction pitchbooks. Original PDF/PPTX files, institutional marks and verbatim report reconstructions are not distributed.
+Visual rules extend the v0.6 basis with v0.7 text-role and grouping-component observations. Source observations come from investor communications, not internal investment-committee or transaction pitchbooks. Original PDF/PPTX files, institutional marks and verbatim report reconstructions are not distributed.
 
 | Profile | Use | Rules | Public example |
 |---|---|---|---|
@@ -10,6 +10,8 @@ Visual rules retain the accepted v0.6 basis. Source observations come from inves
 Language: **English required** for both profiles, including all slide titles, text, chart labels and short source notes. Chinese input must be interpreted accurately and rendered in English. A Chinese-language adaptation is outside the supported Goldman profile. Run the shared checker with `--language en`; also review the actual wording, since a lang attribute cannot prove the text language.
 
 Both display at 960×540. Analytical source units are 720×405; financial source units are 960×540. Their title scale, body background and table grammar differ. Select a coherent theme; if both are needed, separate chapters. Industry analysis defaults to analytical; financial evidence may justify reporting. The profile date identifies the design source, not the year of new data.
+
+For text hierarchy and local grouping, inspect the [four-page role examples](examples/typography/index.html) and [transfer notes](examples/typography/sources.md): analytical T1–T3 and financial T4 keep separate grammar.
 
 Read [example mapping](examples/README.md) for qualitative rings, quantitative donuts, subset charts, axis breaks and evidence requirements. Examples contain fictional entities. Source identifiers B02–B20 and E13/E16/E17/E20/E22 in the rules are observational references, not a promise that all those source pages are bundled.
 

@@ -1,6 +1,6 @@
 # Goldman Sachs · Bernstein 2024 · White
 
-> Runtime profile v0.5. Load with PROFILE.md for shared page tokens. This file contains the theme-specific selection and evidence rules; original PDFs are not a normal generation dependency.
+> Runtime profile v0.7. Load with PROFILE.md for shared page tokens. This file contains the theme-specific selection and evidence rules; original PDFs are not a normal generation dependency.
 
 ## Choose the analytical task first
 
@@ -50,6 +50,28 @@ All values below are source units on 720×405, not final CSS font sizes. At 960�
 For a new page, identify the reading role before choosing size: an argument or primary label should not inherit a small matrix-detail size. B03/B05/B12 group-label tops are around y88; even B14's two-line title allows a similar group position. Title, subtitle and group heading are optional levels determined by information, not a fixed vertical stack. Avoid reserving unused title rows.
 
 Give each evidence view a job. A full-width table with a few short rows may need a narrower area, a related evidence view, or a narrower page claim. A large chart with tiny early values still needs an honest scale; improve the surrounding evidence and placement, not the values. Density is the amount of useful evidence and readable relationships, not word or chart count. See the example mapping for supported adaptations.
+
+## Text roles and grouping components
+
+The original analytical PDF uses Arial regular, bold, italic and bold italic. Its variety comes from role combinations, not unrelated font families. Measurements below are source units; scale the entire combination by 4/3 for 960×540, including tracking, line weight and spacing. See the [editable whole-page role examples](examples/typography/index.html) and their [mapping and reproduction notes](examples/typography/sources.md). Inspect a relevant rendered example alongside its markup before designing a new page.
+
+| Role | Source observation | Transfer decision |
+|---|---|---|
+| Page argument | B09: 18.96 bold, deep blue, two lines form one title | Preserve weight and readable line rhythm; reserve height for actual wrapping |
+| Shared-scope label | B09/B05: 9.96 regular, uppercase, tracked, centered through a thin bracket | A scope label differs from a bold claim heading; when selected, preserve this complete combination |
+| Object-owned statements | B09: 9.96 regular; left #00355F, right #6E93BE | Reuse each object's color in its text and corresponding diagram; retain explicit labels so color is not the only cue |
+| Shared central concept | B09: 11.04 bold #7F7F7F, roughly13.2 line advance | A neutral shared relationship, not a total or a third numerical category |
+| Supporting evidence | B03: 10.56 italic, occasional bold-italic growth emphasis; B08 gray italic qualifications | Keep supporting evidence readable and near the claim; italics do not imply a tiny footnote |
+| Mechanism and support | B17: 12 bold white on a dark node; about9.96 bold supporting labels | Node hierarchy and proximity can carry grouping without a bracket |
+| Action status | B09 teal circled check; amber #F6CF88 circled tilde | Separate status from object identity; only use a completed/planned distinction supported by the input, and state its meaning |
+
+**Bracket construction, when shared scope calls for it.** In B09 the left group spans x33.13–269.16, top line y92.88, short ends down to about109.38, stroke0.5. The regular label straddles the line, with an opaque background gap about11–13 units beyond the visible glyphs on each side. The right group has the same construction. Draw editable lines and text separately; a bold label above an underline is a different component.
+
+Use actual text measurement to size the gap. Source visible widths are approximately51.9 for WEALTH and99.1 for INSTITUTIONAL at9.96. Tracking around2 source units is a starting approximation, not a universal measured token; calibrate the result with the supplied example/source proportions. Do not combine manually spaced characters with added letter-spacing. Longer labels require more gap or a considered two-line construction while keeping the group's association; do not hide or shrink them into footnotes. Wrapped object statements should be centered around their row rather than forcing unrelated line tops together.
+
+Select grouping from the evidence relationship, then preserve the selected component's identity. T1 demonstrates object-colored statements and status; T2 retains claim/evidence hierarchy without brackets; T3 groups uneven category lists. B17 is also a source counterexample to bracket use. Simple charts and finance tables can use plain labels. No quota of bracketed pages, italic phrases or colored statements applies. Equally, do not flatten every page into the same bold miniheading and underline merely to avoid overuse.
+
+The reference PDF is the visual basis. Supplied PPTX run sizes/tracking differ (B09 title18 vs PDF18.96; scope label9 vs9.96) and some bracket lines are raster images. PPTX fields alone do not establish rendered parity. New HTML uses editable vector geometry and system Arial; exact reconstruction still requires the authorized original.
 
 ## Input changes and whole-page selection
 

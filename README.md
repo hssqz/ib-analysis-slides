@@ -6,7 +6,7 @@ English | [简体中文](docs/README.zh-CN.md)
 
 One agent skill for investment-bank-style presentations. Goldman Sachs style is available now, with more global and Chinese institutions to follow.
 
-![Analytical example: selective stacks and a revenue subset](skills/ib-analysis-slides/banks/goldman/examples/analysis/preview.png)
+![Text roles: scope headings, object colors, italic evidence and financial hierarchy](skills/ib-analysis-slides/banks/goldman/examples/typography/preview.png)
 ![Financial example: native tables and profit drivers](skills/ib-analysis-slides/banks/goldman/examples/financial/preview.png)
 
 All preview data is fictional. Independent project; not affiliated with or endorsed by Goldman Sachs.
